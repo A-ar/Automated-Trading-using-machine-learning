@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 def Ratios(inp):
     bal_sheet= pd.DataFrame()
-    driver=webdriver.Chrome(r"/Users/akschatarya/Documents/USER/codes/chromedriver")
+    driver=webdriver.Chrome(r"path")
     driver.get("https://www.google.com/")
     driver.find_element_by_name('q').send_keys("https://www.moneycontrol.com/financials/"+inp.replace(" ", "")+"/ratiosVI/")
     webelem = driver.find_element(By.XPATH,'//*[@id="tsf"]/div[2]/div/div[3]/center/input[2]')
