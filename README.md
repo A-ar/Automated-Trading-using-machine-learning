@@ -3,7 +3,9 @@ Fundamental Analysis and Technical analysis using multiple machine learning mode
 
 Steps to run the application:
 
-1. Change the chromedriver path in main file and install necessary modules
-2. run Main.py
-3. Enter the name of any company listed on national stock exchange
-4. get the results
+1. Change the chromedriver path in balance_sheet_scraper,ratios_scraper and Profit_loss_scrper 
+2. install necessary modules
+3. run Main.py
+4. Enter the name of any company listed on national stock exchange
+5. Wait for the model to train
+6. Get the results
